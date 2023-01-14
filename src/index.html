@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>3 en Raya JS</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./style.css">
+
+        <script src="game.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo"> 3 EN RAYA</h1>
+        </header>
+        
+        <section id="tablero">
+
+            <div id="d0" onclick="juego(0)"></div>
+            <div id="d1" onclick="juego(1)"></div>
+            <div id="d2" onclick="juego(2)"></div>
+            <div id="d3" onclick="juego(3)"></div>
+            <div id="d4" onclick="juego(4)"></div>
+            <div id="d5" onclick="juego(5)"></div>
+            <div id="d6" onclick="juego(6)"></div>
+            <div id="d7" onclick="juego(7)"></div>
+            <div id="d8" onclick="juego(8)"></div>
+
+        </section>
+
+        <section class="resultado">
+
+            <p id="finalizado"></p>
+            <button onclick="reiniciarJuego()"> Reiniciar juego</button>
+
+        </section>
+        
+    </body>
+</html>
